@@ -205,13 +205,153 @@
 
 //bubble sort
 
-const arr = [15, 7, 2, 11];
+// const arr = [2, 32, 5, 56];
 
-for(let i = 0; i < arr.length; i++){
-    
-    if(arr[i] > arr[i + 1]){
-        let temp = arr[i + 1];
-        arr[i + 1] = arr[i];
-    }
-}
+// for(var i = 0 ; i < arr.length ; i++){ 
+//     for(j = 0; j < arr.length; j++){
+//         if(arr[j] > arr[j + 1]){
+//             let temp = arr[j + 1];
+//             arr[j + 1] = arr[j];
+//             arr[j] = temp;
+//         }
+//     }
+// }
+// console.log(arr);
+
+
+
+
+
+//1. Create an object literal representing a person with properties for name, age, and city.
+
+// let person = {
+//     name: "baaska",
+//     age: "22",
+//     city: "Ulaanbaatar"
+// };
+
+
+// //2.  Create an object using the new Object() constructor.
+
+// let person = new Object();
+
+// person.name = "baaska";
+// person.age = "22";
+// person.city = "ulaanbaatar"
+
+
+// 3 
+
+
+
+
+
+//4. Access and display the values of properties using dot notation and bracket notation.
+
+    // let person = {
+    //     name: "baaska",
+    //     age: "22",
+    //     city: "Ulaanbaatar"
+    // };
+    // console.log(person.name);
+    // console.log(person['name']);
+
+
+//5. Practice accessing nested properties (objects within objects).
+
+    // let person = {
+    //     name: "baaska",
+    //     age: "22",
+    //     city: "Ulaanbaatar",
+    //     car :{
+    //         color: "white",
+    //         price: "20k",
+    //         brand: "toyota"
+    //     }
+    // }
+        
+//6. Add a new property to an existing object !!
+
+
+// let person = {
+//     name: "baaska",
+//     age: "22",
+//     city: "Ulaanbaatar"
+// };
+
+//7. Modify the value of an existing property !!
+
+// let person = {
+//     name: "Urnaa",
+//     age: "19",
+//     city: "Arhangai",
+//     gender: "female"
+// };
+
+
+//8. Delete a property from an object.
+
+// let person = {
+//     name: "Urnaa",
+//     age: "19",
+//     city: "Arhangai",
+//     gender: "female"
+// };
+
+// delete person.age;
+// console.log(person);
+
+
+//9. Add a method to an object that performs a specific action (e.g., a greet() method for a person object).
+
+// let person = {
+//     name: "baaska",
+//     age: "22",
+//     city: "Ulaanbaatar", 
+//     greet: function(){
+//         console.log('hello');
+//     }
+// };
+
+// person.greet()
+
+
+//10. Call and execute methods on objects
+
+// let person = {
+//     greet: function(n){
+//         console.log("hello"+ n);
+//     }
+// };
+
+// person.greet(
+// "fghjk"
+// )
+
+
+
+
+//print property keys
+
+// let person = {
+//     name: "baaska",
+//     age: "22",
+//     gender: "male"
+//   };
+
+//   console.log(Object.keys(person));
+
+  
+//   let person = {
+//     name: "baaska",
+//     age: "22",
+//     gender: "male"
+//   };
+
+//   console.log(person.name, person.age, person.gender);
+
+
+
+
+
 
