@@ -273,20 +273,12 @@
 //6. Add a new property to an existing object !!
 
 
-// let person = {
-//     name: "baaska",
-//     age: "22",
-//     city: "Ulaanbaatar"
-// };
+
+
 
 //7. Modify the value of an existing property !!
 
-// let person = {
-//     name: "Urnaa",
-//     age: "19",
-//     city: "Arhangai",
-//     gender: "female"
-// };
+
 
 
 //8. Delete a property from an object.
@@ -316,7 +308,7 @@
 // person.greet()
 
 
-//10. Call and execute methods on objects
+// 10. Call and execute methods on objects
 
 // let person = {
 //     greet: function(n){
@@ -353,5 +345,73 @@
 
 
 
+///
+
+// const obj = new Object();
+// obj.name = "baljan",
+// obj.age = "17"
+
+// if(obj.hasOwnProperty("age")){
+//     console.log(obj.name, "n", obj.age, "nastai");
+// }
+// else{
+//     console.log("ta nasaa oruulna uu.");
+        
+// }
 
 
+
+
+///
+
+// const names = [
+//     {
+//         name: "itgel",
+//         age: "21"
+//     },
+//     {
+//         name: "naraa",
+//         age: "22"
+//     },
+//     {
+//         name: "uuganaa",
+//         age: "11"
+//     }
+// ];
+
+// function checkIsAdult() {
+//     for (let i = 0; i < names.length; i++) {
+//         console.log(names[i].name);
+        
+        
+//     }
+// }
+
+// checkIsAdult()
+
+
+
+
+
+//CHALLENGE
+
+function printProperties(obj) {
+    console.log(obj);
+}
+
+printProperties(
+    {
+        name: "naraa",
+        age: 22
+    }
+)
+console.table([
+    {
+        name: "naraa",
+        age: 20
+    },
+    {
+        name: "orgil",
+        age: 21s
+    }
+])
