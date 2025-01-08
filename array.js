@@ -412,6 +412,6 @@ console.table([
     },
     {
         name: "orgil",
-        age: 21s
+        age: 21
     }
 ])
