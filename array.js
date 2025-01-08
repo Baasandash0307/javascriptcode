@@ -334,13 +334,6 @@
 //   console.log(Object.keys(person));
 
   
-//   let person = {
-//     name: "baaska",
-//     age: "22",
-//     gender: "male"
-//   };
-
-//   console.log(person.name, person.age, person.gender);
 
 
 
@@ -395,23 +388,70 @@
 
 //CHALLENGE
 
-function printProperties(obj) {
-    console.log(obj);
-}
+// function printProperties(obj) {
+//     console.log(obj);
+// }
 
-printProperties(
-    {
-        name: "naraa",
-        age: 22
-    }
-)
-console.table([
-    {
-        name: "naraa",
-        age: 20
-    },
-    {
-        name: "orgil",
-        age: 21
-    }
-])
+// printProperties(
+//     {
+//         name: "naraa",
+//         age: 22
+//     }
+// )
+// console.table([
+//     {
+//         name: "naraa",
+//         age: 20
+//     },
+//     {
+//         name: "orgil",
+//         age: 21
+//     }
+// ])
+
+
+
+
+
+
+//2025-2030 hurtel 12.31 ymar garagiig oloh
+
+// 1
+
+// for (let year = 2025; year <= 2030; year++) {
+//     const date = new Date(year, 11, 31);
+//     console.log(date.toDateString()); 
+// }
+
+
+// 2
+
+// const days = {
+//     0: 'sunday',
+//     1: 'monday',
+//     2: 'tuesday',
+//     3: 'wednesday',
+//     4: 'thursday',
+//     5: 'friday',
+//     6: 'saturday',
+// };
+
+// const newDays = {};
+
+// for(let key in days){
+//     newDays[days[key]] = key
+// }
+// console.log(newDays);
+
+
+
+// two sum 
+
+const nums = [2, 7, 11, 15];
+const target = 9;
+
+
+const obj = {};
+for (let i = 0; i < nums.length; i++) {
+    
+}
