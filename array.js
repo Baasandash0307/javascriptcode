@@ -447,11 +447,55 @@
 
 // two sum 
 
-const nums = [2, 7, 11, 15];
-const target = 9;
+// const nums = [2, 7, 11, 15];
+// const target = 9;
 
 
-const obj = {};
-for (let i = 0; i < nums.length; i++) {
+// const obj = {};
+// for (let i = 0; i < nums.length; i++) {
     
-}
+// }
+
+
+
+
+
+
+//
+
+const names = [
+    "baljan",
+    "itgel",
+    "jamiyansuren",
+    "chingun",
+    "telmuun",
+    "chinguun",
+    "nomi",
+    "aygul",
+    "behbat",
+    "narangerel",
+    "oyunbat",
+    "turbat",
+    "baasandash",
+    "jargalsaihan",
+    "tugsbileg",
+    "huwituguldur",
+    "ursaa",
+    "ider",
+    "ariunjargal"
+  ];
+
+  const obj = {};
+
+  names.forEach((element) => {
+    if (obj.hasOwnProperty(element[0])) {
+        obj[element[0]].push(element)
+    } else {
+        obj[element[0]] = [element]
+    }
+  })
+  
+  const nestedArray = Object.values(obj)
+
+  console.log(nestedArray);
+  
