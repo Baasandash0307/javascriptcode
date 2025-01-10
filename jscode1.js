@@ -1,4 +1,169 @@
-// let weekNumber = 1;
+
+
+
+// 1-100 hurtelh sondgoi too
+
+
+// for(var i = 0; i < 100 ; i++)
+//     if(i % 2 == 1){
+//         console.log(i, 'sondgoi too');
+//     }
+
+
+
+
+
+//     // 100 hurtelh toonii niilber
+
+
+// var sum = 0;
+// for(var i = 1; i <= 100; i++){
+//     sum = sum + i;
+// }    
+//     console.log('niilber', sum);
+
+
+
+
+
+//     // 100 hurtelh toonii tegsh toonii urjver
+
+// var urjver = 1;
+// for(var i = 1; i <= 100; i++){
+//     if(i % 2 == 0)
+// urjver = urjver * i;
+// }
+// console.log('urjver', urjver)
+
+
+
+
+
+///////////
+
+
+
+
+// var day = 80;
+
+// if(day <= 1 && day <= 9){
+//     console.log('ehnii 9')
+// } else if(day >= 9 && day <= 18){
+//     console.log('2 dahi 9')
+// } else if(day >= 19 && day <= 28){
+//     console.log('3 dahi 9')
+// } else if(day >= 28 && day <= 37){
+//     console.log('4 dahi 9')
+// } else if(day >= 37 && day <= 46){
+//     console.log('5 dahi 9')
+// } else if(day >= 46 && day <= 55){
+//     console.log('6 dahi 9')
+// } else if(day >= 55 && day <= 64){
+//     console.log('7 dahi 9')
+// } else if(day >= 64 && day <= 73){
+//     console.log('8 dahi 9')
+// } else if(day >= 73 && day <= 81){
+//     console.log('9 dahi 9')
+// }
+
+
+
+
+
+////////
+
+
+
+
+// function AnhniiTooOloh(too){
+//     if(too <= 1){
+//         return false
+//     }
+//     for(var i = 2 ; i < too ; i++){
+//         if(too % i === 0){
+//             return false
+//         }
+//     }
+//     return true
+// }
+
+
+// for(var i = 2 ; i < 100 ; i++){
+//     if(AnhniiTooOloh(i)){
+//         console.log("anhnii"+i);
+//     }
+// }
+
+
+// var number = 4
+
+// if(AnhniiTooOloh(number) === true){
+//     console.log("Anhni too")
+// }
+// else{
+//     console.log("bish")
+// }
+
+
+
+
+
+
+
+
+// const animals = ['elephant', 'cat', 'bear', 'dog']
+// let newWord = ''
+
+// for (let index = 0; index < animals.length; index ++) {
+//     const value = animals[index]
+//     newWord += value[0]
+// }
+
+// console.log(newWord) // ecbdc
+
+// const myList = [4, 8, 9, 1, 3, 10]
+
+
+
+
+
+
+
+// myList.sort((param1, param2) => {
+//     return param1 - param2;
+// })
+
+// console.log(myList) // [1, 3, 4, 8, 9, 10]
+
+
+
+
+
+
+
+// function isprimenumber(a){
+//     for(i = 0; a <= i; i++){
+//         if(a % i != 0){
+//             console.log("prime")
+//         }
+//         else{
+//             a++;
+//             if(a % i == 0){
+//                 console.log("notprime")
+//             }
+//             else{
+//                 console.log("prime")
+//             }
+//         }
+//     }
+//     console.log(a)
+//     }
+
+
+////////////
+
+
+// let weekNumber = 5;
 // let weekName;
 
 // if(weekNumber == 1){
@@ -159,7 +324,7 @@
 
 
 
-// let n = 4;
+// let n = 2;
 // let isPrimeNumber = true;
 
 // for(i = 2; i < n; i++){
@@ -169,6 +334,60 @@
 // }
 // console.log(isPrimeNumber);
 
+
+
+
+
+
+
+// *
+// **
+// ***
+// ****
+// *****
+
+// var text = ''
+// for(i = 0; i <= 4; i++){
+//     text+='*';
+//     console.log(text);
+// }
+
+ 
+
+
+
+
+// Java Program check if there are any duplicates 
+// in the array using nested loops approach 
+
+
+
+// JavaScript Program check if there are any duplicates 
+// in the array using nested loops approach 
+
+// function checkDuplicates(arr) {
+// 	let n = arr.length;
+    
+//     // Outer loop to pick each element one by one
+//     for (let i = 0; i < n - 1; i++) {
+    
+//         // Inner loop to compare the current element with 
+//         // the rest of the elements
+//         for (let j = i + 1; j < n; j++) {
+        
+//             // If a duplicate is found return true
+//             if (arr[i] === arr[j]) {
+//                 return true;  
+//             }
+//         }
+//     }
+
+//     // If no duplicates are found, return false
+//     return false;
+// }
+
+// let arr = [4, 5, 6, 4];
+// console.log(checkDuplicates(arr));
 
 
 
