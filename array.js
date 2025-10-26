@@ -1,13 +1,13 @@
 //ugugdsun toonii niilber
 
-// // let nums = [1, 2, 3, 4];
+// let nums = [1, 2, 3, 4];
 
-// // let result = 0;
+// let result = 0;
 
-// // for(let i = 0; i < nums.length; i++){
-// //     result += nums[i];
-// // }
-// // console.log(result);
+// for(let i = 0; i < nums.length; i++){
+//     result += nums[i];
+// }
+// console.log(result);
 
 
 
@@ -16,17 +16,17 @@
 // maxiig oloh, indexiig oloh
 
 // const numbers = [12, 25, 33, 4, 51, 64];
-            // let max = 0;
-            // let maxIndex = 0;
+//             let max = 0;
+//             let maxIndex = 0;
             
-            // for (let i = 0; i <numbers.length; i++){
-            //     if(max < numbers[i]){
-            //         max = numbers[i];
-            //         maxIndex = i
-            //     }
-            // }
-            // console.log(max);
-            // console.log(maxIndex);
+//             for (let i = 0; i <numbers.length; i++){
+//                 if(max < numbers[i]){
+//                     max = numbers[i];
+//                     maxIndex = i
+//                 }
+//             }
+//             console.log("niilber: ", max);
+//             console.log("index: ",maxIndex);
 
 
 
@@ -193,6 +193,9 @@
 
 
 
+
+
+
 // let a = 3, b = 999;
 // let n = 333;
 // let sum = (a + b)*n/2
@@ -255,6 +258,10 @@
     // };
     // console.log(person.name);
     // console.log(person['name']);
+    // console.log(person.age);
+    // console.log(person.city);
+    
+    
 
 
 //5. Practice accessing nested properties (objects within objects).
@@ -463,39 +470,40 @@
 
 //
 
-const names = [
-    "baljan",
-    "itgel",
-    "jamiyansuren",
-    "chingun",
-    "telmuun",
-    "chinguun",
-    "nomi",
-    "aygul",
-    "behbat",
-    "narangerel",
-    "oyunbat",
-    "turbat",
-    "baasandash",
-    "jargalsaihan",
-    "tugsbileg",
-    "huwituguldur",
-    "ursaa",
-    "ider",
-    "ariunjargal"
-  ];
+// const names = [
+//     "baljan",
+//     "itgel",
+//     "jamiyansuren",
+//     "chingun",
+//     "telmuun",
+//     "chinguun",
+//     "nomi",
+//     "aygul",
+//     "behbat",
+//     "narangerel",
+//     "oyunbat",
+//     "turbat",
+//     "baasandash",
+//     "jargalsaihan",
+//     "tugsbileg",
+//     "huwituguldur",
+//     "ursaa",
+//     "ider",
+//     "ariunjargal"
+//   ];
 
-  const obj = {};
+//   const obj = {};
 
-  names.forEach((element) => {
-    if (obj.hasOwnProperty(element[0])) {
-        obj[element[0]].push(element)
-    } else {
-        obj[element[0]] = [element]
-    }
-  })
+//   names.forEach((element) => {
+//     if (obj.hasOwnProperty(element[0])) {
+//         obj[element[0]].push(element)
+//     } else {
+//         obj[element[0]] = [element]
+//     }
+//   })
   
-  const nestedArray = Object.values(obj)
+//   const nestedArray = Object.values(obj)
 
-  console.log(nestedArray);
+//   console.log(nestedArray);
   
+
